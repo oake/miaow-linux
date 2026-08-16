@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=miaow
+Comment=Open a room with one other person
+Exec=miaow %U
+Icon=ke.oa.miaow
+Terminal=false
+Type=Application
+Categories=Network;AudioVideo;VideoConference;
+MimeType=x-scheme-handler/miaow;
+StartupNotify=true
+SingleMainWindow=true
+

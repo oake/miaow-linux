@@ -1,0 +1,8 @@
+{
+  "uuid": "miaow@oa.ke",
+  "name": "miaow pinned windows",
+  "description": "Keeps miaow's pinned call window above other windows and snapped to its selected corner.",
+  "settings-schema": "ke.oa.miaow",
+  "shell-version": ["47", "48", "49", "50"],
+  "url": "https://oa.ke"
+}

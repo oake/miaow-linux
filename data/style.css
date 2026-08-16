@@ -1,0 +1,171 @@
+.call-window {
+  background: black;
+}
+
+.call-background {
+  background: linear-gradient(135deg, #15171f, #000000 70%);
+}
+
+.call-header {
+  background: linear-gradient(to bottom, alpha(black, 0.72), transparent);
+  color: white;
+}
+
+.call-status {
+  color: alpha(white, 0.72);
+  font-weight: 600;
+}
+
+.call-status-spinner {
+  -gtk-icon-size: 40px;
+}
+
+.remote-status {
+  padding: 7px 12px;
+  border-radius: 999px;
+  color: white;
+  background: alpha(#22242b, 0.82);
+  box-shadow: 0 4px 12px alpha(black, 0.35);
+}
+
+.call-controls {
+  padding: 10px;
+  border-radius: 999px;
+  background: alpha(#22242b, 0.86);
+  box-shadow: 0 8px 24px alpha(black, 0.45);
+}
+
+.call-control {
+  min-width: 44px;
+  min-height: 44px;
+  color: white;
+  background: alpha(white, 0.12);
+}
+
+.call-control:hover {
+  background: alpha(white, 0.22);
+}
+
+.call-control:checked {
+  background: #c01c28;
+}
+
+.call-control:checked:hover {
+  background: #e01b24;
+}
+
+.call-controls.compact {
+  padding: 6px;
+}
+
+.call-controls.compact .call-control {
+  min-width: 38px;
+  min-height: 38px;
+}
+
+.local-pip,
+.remote-pip {
+  background: black;
+  border-radius: 16px;
+  outline: 1px solid alpha(white, 0.14);
+  outline-offset: -1px;
+  box-shadow: 0 10px 30px alpha(black, 0.62);
+}
+
+.stream-controls {
+  border-radius: 999px;
+  background: alpha(#22242b, 0.86);
+  box-shadow: 0 6px 18px alpha(black, 0.5);
+}
+
+.stream-controls button {
+  min-width: 36px;
+  min-height: 36px;
+  border-radius: 999px;
+  color: white;
+  background: transparent;
+}
+
+.stream-controls button:hover {
+  background: alpha(white, 0.18);
+}
+
+.pip-switch {
+  min-width: 36px;
+  min-height: 36px;
+  color: white;
+  background: alpha(#22242b, 0.8);
+  box-shadow: 0 3px 10px alpha(black, 0.45);
+}
+
+.pip-switch:hover {
+  background: alpha(#3584e4, 0.92);
+}
+
+.pip-mute-badge,
+.local-mute-badge {
+  color: alpha(white, 0.72);
+  background: alpha(#22242b, 0.76);
+  border-radius: 999px;
+  box-shadow: 0 3px 10px alpha(black, 0.38);
+}
+
+.pip-mute-badge {
+  padding: 0 6px;
+}
+
+.local-mute-badge {
+  padding: 5px 11px;
+}
+
+.debug-stats {
+  padding: 9px 10px;
+  border-radius: 8px;
+  color: alpha(white, 0.9);
+  background: alpha(black, 0.48);
+  outline: 1px solid alpha(white, 0.08);
+  outline-offset: -1px;
+  box-shadow: 0 3px 12px alpha(black, 0.24);
+  font-family: monospace;
+  font-size: 11px;
+}
+
+.local-mute-badge label {
+  color: alpha(white, 0.72);
+  font-weight: 600;
+}
+
+.window-close-button {
+  min-width: 36px;
+  min-height: 36px;
+  color: white;
+  background: alpha(#22242b, 0.82);
+  box-shadow: 0 4px 14px alpha(black, 0.42);
+}
+
+.window-close-button:hover {
+  background: #c01c28;
+}
+
+.pin-corner-button {
+  min-width: 36px;
+  min-height: 36px;
+  padding: 0;
+  color: white;
+  background: alpha(#22242b, 0.82);
+  box-shadow: 0 4px 14px alpha(black, 0.42);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.pin-corner-button:hover {
+  background: alpha(#3584e4, 0.92);
+}
+
+.mirrored-video {
+  transform: scaleX(-1);
+}
+
+label.error {
+  color: @error_color;
+}

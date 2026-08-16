@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="ke.oa.miaow" path="/ke/oa/miaow/">
+    <key name="selected-room-id" type="s">
+      <default>''</default>
+      <summary>Last selected room identifier</summary>
+    </key>
+    <key name="normal-width" type="i"><default>1100</default></key>
+    <key name="normal-height" type="i"><default>700</default></key>
+    <key name="compact-width" type="i"><default>360</default></key>
+    <key name="compact-height" type="i"><default>225</default></key>
+    <key name="pinned-corner" type="s"><default>'bottom-right'</default></key>
+    <key name="show-debug-stats" type="b"><default>false</default></key>
+    <key name="noise-suppression" type="b"><default>true</default></key>
+    <key name="echo-cancellation" type="b"><default>true</default></key>
+    <key name="local-pip-corner" type="s"><default>'bottom-right'</default></key>
+    <key name="local-pip-width" type="i"><default>240</default></key>
+    <key name="local-pip-height" type="i"><default>135</default></key>
+    <key name="remote-pip-corner" type="s"><default>'bottom-left'</default></key>
+    <key name="remote-pip-width" type="i"><default>240</default></key>
+    <key name="remote-pip-height" type="i"><default>135</default></key>
+    <key name="reaction-slots" type="s"><default>'[]'</default></key>
+  </schema>
+</schemalist>
